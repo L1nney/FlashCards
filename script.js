@@ -66,7 +66,6 @@ const flashcards = [
     a: "Nathan Drake 🧭"
   }
 ];
-];
 
 let currentIndex = 0;
 let correctScore = 0;
