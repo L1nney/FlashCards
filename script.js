@@ -18,8 +18,7 @@ const flashcards = [
   {
     q: "Qual jogo de Battle Royale popular tem construções e dancinhas?",
     a: "Fortnite 🕺"
-  }
-
+  }, // 👈 A vírgula que faltava estava bem aqui!
   {
     q: "Em Valorant, qual agente é especialista em cura e consegue ressuscitar aliados?",
     a: "Sage 🩺"
@@ -32,8 +31,6 @@ const flashcards = [
     q: "Qual é o nome do dispositivo que os atacantes precisam plantar em Valorant?",
     a: "Spike 💣"
   },
-
-  
   {
     q: "Em Genshin Impact, qual é o nome da companheira/mascote do Viajante?",
     a: "Paimon 🧚‍♀️"
@@ -46,8 +43,6 @@ const flashcards = [
     q: "Qual é o nome da nação governada pelo Arconte Geo (Zhongli) em Genshin Impact?",
     a: "Liyue 🪨"
   },
-
-
   {
     q: "Qual é o nome do lendário 'Bom de Guerra' protagonista de God of War?",
     a: "Kratos 🪓"
