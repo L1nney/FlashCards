@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards Gamer 🎮</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🎮 Flashcards Gamer</h1>
+    <div class="counter" id="counter">Cartão 1 de 5</div>
+    <div class="score-board">
+      <span class="score-correct">Acertos: <strong id="correct-score">0</strong></span>
+      <span class="score-wrong">Erros: <strong id="wrong-score">0</strong></span>
+    </div>
+  </header>
+
+  <div class="card-container" onclick="flipCard()">
+    <div class="card" id="card">
+      <div class="card-face card-front">
+        <span class="tag">Pergunta</span>
+        <p id="question">Carregando...</p>
+      </div>
+      <div class="card-face card-back">
+        <span class="tag">Resposta</span>
+        <p id="answer">Carregando...</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="instructions">💡 Clique no cartão para virar!</p>
+
+  <div class="controls">
+    <button class="btn-action btn-wrong" onclick="markWrong()">❌ Errei</button>
+    <button class="btn-nav" onclick="prevCard()">⬅️ Ant.</button>
+    <button class="btn-nav" onclick="nextCard()">Prox. ➡️</button>
+    <button class="btn-action btn-correct" onclick="markCorrect()">✅ Acertei</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
