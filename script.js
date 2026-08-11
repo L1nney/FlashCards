@@ -18,7 +18,7 @@ const flashcards = [
   {
     q: "Qual jogo de Battle Royale popular tem construções e dancinhas?",
     a: "Fortnite 🕺"
-  }, // 👈 A vírgula que faltava estava bem aqui!
+  }, 
   {
     q: "Em Valorant, qual agente é especialista em cura e consegue ressuscitar aliados?",
     a: "Sage 🩺"
@@ -58,7 +58,7 @@ const flashcards = [
   {
     q: "Qual é o famoso caçador de tesouros e protagonista da série 'Uncharted'?",
     a: "Nathan Drake 🧭"
-  }
+  },
 ];
 
 let currentIndex = 0;
