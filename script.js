@@ -19,8 +19,7 @@ const flashcards = [
     q: "Qual jogo de Battle Royale popular tem construções e dancinhas?",
     a: "Fortnite 🕺"
   }
-  const flashcards = [
-  // 🎯 VALORANT
+
   {
     q: "Em Valorant, qual agente é especialista em cura e consegue ressuscitar aliados?",
     a: "Sage 🩺"
@@ -34,7 +33,7 @@ const flashcards = [
     a: "Spike 💣"
   },
 
-  // 🥷 GENSHIN IMPACT
+  
   {
     q: "Em Genshin Impact, qual é o nome da companheira/mascote do Viajante?",
     a: "Paimon 🧚‍♀️"
@@ -48,7 +47,7 @@ const flashcards = [
     a: "Liyue 🪨"
   },
 
-  // 🎮 PLAYSTATION
+
   {
     q: "Qual é o nome do lendário 'Bom de Guerra' protagonista de God of War?",
     a: "Kratos 🪓"
