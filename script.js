@@ -19,6 +19,53 @@ const flashcards = [
     q: "Qual jogo de Battle Royale popular tem construções e dancinhas?",
     a: "Fortnite 🕺"
   }
+  const flashcards = [
+  // 🎯 VALORANT
+  {
+    q: "Em Valorant, qual agente é especialista em cura e consegue ressuscitar aliados?",
+    a: "Sage 🩺"
+  },
+  {
+    q: "Qual agente do Valorant usa um arco para revelar a posição dos inimigos?",
+    a: "Sova 🏹"
+  },
+  {
+    q: "Qual é o nome do dispositivo que os atacantes precisam plantar em Valorant?",
+    a: "Spike 💣"
+  },
+
+  // 🥷 GENSHIN IMPACT
+  {
+    q: "Em Genshin Impact, qual é o nome da companheira/mascote do Viajante?",
+    a: "Paimon 🧚‍♀️"
+  },
+  {
+    q: "A qual elemento corresponde a visão 'Anemo' em Genshin Impact?",
+    a: "Vento 🌪️"
+  },
+  {
+    q: "Qual é o nome da nação governada pelo Arconte Geo (Zhongli) em Genshin Impact?",
+    a: "Liyue 🪨"
+  },
+
+  // 🎮 PLAYSTATION
+  {
+    q: "Qual é o nome do lendário 'Bom de Guerra' protagonista de God of War?",
+    a: "Kratos 🪓"
+  },
+  {
+    q: "Em 'The Last of Us', qual é o nome da garota imune à infecção que Joel protege?",
+    a: "Ellie 👧"
+  },
+  {
+    q: "Qual é o nome da caçadora protagonista da franquia 'Horizon Zero Dawn'?",
+    a: "Aloy 🏹"
+  },
+  {
+    q: "Qual é o famoso caçador de tesouros e protagonista da série 'Uncharted'?",
+    a: "Nathan Drake 🧭"
+  }
+];
 ];
 
 let currentIndex = 0;
