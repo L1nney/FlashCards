@@ -2,6 +2,7 @@ const flashcards = [
   {
     q: "Qual é o nome do encanador mais famoso dos videogames?",
     a: "Mario (Super Mario Bros) 🍄"
+    img: 
   },
   {
     q: "Qual jogo popular de construção é composto por blocos?",
